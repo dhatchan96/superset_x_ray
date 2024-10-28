@@ -3612,7 +3612,7 @@
   resolved "https://registry.yarnpkg.com/@math.gl/types/-/types-4.1.0.tgz#ce28c06bcfe07d21311e00aeb25de82fecf7f393"
   integrity sha512-clYZdHcmRvMzVK5fjeDkQlHUzXQSNdZ7s4xOqC3nJPgz4C/TZkUecTo9YS4PruZqtDda/ag4erndP0MIn40dGA==
 
-"@math.gl/web-mercator@^3.2.2", "@math.gl/web-mercator@^3.5.1", "@math.gl/web-mercator@^3.5.3", "@math.gl/web-mercator@^3.5.5":
+"@math.gl/web-mercator@^3.5.1", "@math.gl/web-mercator@^3.5.3", "@math.gl/web-mercator@^3.5.5":
   version "3.6.3"
   resolved "https://registry.yarnpkg.com/@math.gl/web-mercator/-/web-mercator-3.6.3.tgz#ef91168e030eecffc788618d686e8a6c1d7a0bf8"
   integrity sha512-UVrkSOs02YLehKaehrxhAejYMurehIHPfFQvPFZmdJHglHOU4V2cCUApTVEwOksvCp161ypEqVp+9H6mGhTTcw==
@@ -5626,7 +5626,7 @@
   version "0.4.13"
   dependencies:
     "@mapbox/geojson-extent" "^1.0.1"
-    "@math.gl/web-mercator" "^3.2.2"
+    "@math.gl/web-mercator" "^4.1.0"
     "@types/d3-array" "^2.0.0"
     bootstrap-slider "^11.0.2"
     d3-array "^1.2.4"
