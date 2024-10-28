@@ -5514,7 +5514,7 @@
 "@superset-ui/legacy-plugin-chart-calendar@file:./plugins/legacy-plugin-chart-calendar":
   version "0.18.25"
   dependencies:
-    d3-array "^2.0.3"
+    d3-array "^3.2.4"
     d3-selection "^3.0.0"
     d3-tip "^0.9.1"
     prop-types "^15.8.1"
@@ -5530,7 +5530,7 @@
   version "0.18.25"
   dependencies:
     d3 "^3.5.17"
-    d3-array "^2.0.3"
+    d3-array "^3.2.4"
     prop-types "^15.8.1"
 
 "@superset-ui/legacy-plugin-chart-event-flow@file:./plugins/legacy-plugin-chart-event-flow":
@@ -5560,7 +5560,7 @@
 "@superset-ui/legacy-plugin-chart-horizon@file:./plugins/legacy-plugin-chart-horizon":
   version "0.18.25"
   dependencies:
-    d3-array "^2.0.3"
+    d3-array "^3.2.4"
     d3-scale "^3.0.1"
     prop-types "^15.8.1"
 
@@ -5617,7 +5617,7 @@
   version "0.18.25"
   dependencies:
     d3 "^3.5.17"
-    d3-array "^2.4.0"
+    d3-array "^3.2.4"
     d3-color "^3.1.0"
     datamaps "^0.5.9"
     prop-types "^15.8.1"
@@ -5627,9 +5627,9 @@
   dependencies:
     "@mapbox/geojson-extent" "^1.0.1"
     "@math.gl/web-mercator" "^3.2.2"
-    "@types/d3-array" "^2.0.0"
+    "@types/d3-array" "^3.2.1"
     bootstrap-slider "^11.0.2"
-    d3-array "^1.2.4"
+    d3-array "^3.2.4"
     d3-color "^1.4.1"
     d3-scale "^3.0.0"
     deck.gl "9.0.28"
@@ -5659,7 +5659,7 @@
 "@superset-ui/plugin-chart-echarts@file:./plugins/plugin-chart-echarts":
   version "0.18.25"
   dependencies:
-    d3-array "^1.2.0"
+    d3-array "^3.2.4"
     echarts "^5.4.1"
     lodash "^4.17.21"
     moment "^2.30.1"
@@ -5677,10 +5677,10 @@
   version "0.18.25"
   dependencies:
     "@react-icons/all-files" "^4.1.0"
-    "@types/d3-array" "^2.9.0"
+    "@types/d3-array" "^3.2.1"
     "@types/react-table" "^7.7.20"
     classnames "^2.5.1"
-    d3-array "^2.4.0"
+    d3-array "^3.2.4"
     lodash "^4.17.21"
     memoize-one "^5.2.1"
     react-table "^7.8.0"
@@ -6102,12 +6102,12 @@
   resolved "https://registry.yarnpkg.com/@types/d3-array/-/d3-array-3.0.3.tgz#87d990bf504d14ad6b16766979d04e943c046dac"
   integrity sha512-Reoy+pKnvsksN0lQUlcH6dOGjRZ/3WRwXR//m+/8lt1BXeI4xyaUZoqULNjyXXRuh0Mj4LNpkCvhUpQlY3X5xQ==
 
-"@types/d3-array@^2.0.0", "@types/d3-array@^2.9.0":
+"@types/d3-array@^2.0.0":
   version "2.12.7"
   resolved "https://registry.yarnpkg.com/@types/d3-array/-/d3-array-2.12.7.tgz#46ec31094a4727af09680dd7133a5bf1409ae104"
   integrity sha512-SVvxzxRVnIgtJbNTj5ZVJ9CZkVOANCpW0nQbRi7EOU5Q9G+JQQjXD2SCpr1OYCX09b3Yr7o0+CBofZAgU42rbQ==
 
-"@types/d3-array@^3.0.2":
+"@types/d3-array@^3.0.2", "@types/d3-array@^3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@types/d3-array/-/d3-array-3.2.1.tgz#1f6658e3d2006c4fceac53fde464166859f8b8c5"
   integrity sha512-Y2Jn2idRrLzUfAKV2LyRImR+y4oa2AntrgID95SHJxuMUrkNXmanDSed71sRNZysveJVt1hLLemQZIady0FpEg==
@@ -10759,19 +10759,19 @@ currencyformatter.js@^2.2.0:
   resolved "https://registry.yarnpkg.com/currencyformatter.js/-/currencyformatter.js-2.2.0.tgz#ffafd871bbc92127cadf55588e64026cab78d8b0"
   integrity sha512-kfMfQBOsK9vnzqUT7pQY+I6ZTM7VWkICwiFUOLPLpOzR5Ir+AUoa1kO7I1clsiHXYe1FPyX91BRWBgHOUEH/NQ==
 
-d3-array@1, d3-array@^1.0.2, d3-array@^1.2.0, d3-array@^1.2.1, d3-array@^1.2.4:
+d3-array@1, d3-array@^1.0.2, d3-array@^1.2.0, d3-array@^1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.4.tgz#635ce4d5eea759f6f605863dbcfc30edc737f71f"
   integrity sha512-KHW6M86R+FUPYGb3R5XiYjXPq7VzwxZ22buHhAEVG5ztoEcZZMLov530mmccaqA1GghZArjQV46fuc8kUqhhHw==
 
-d3-array@2, d3-array@^2.0.3, d3-array@^2.3.0, d3-array@^2.3.1, d3-array@^2.4.0:
+d3-array@2, d3-array@^2.3.0, d3-array@^2.3.1:
   version "2.12.1"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-2.12.1.tgz#e20b41aafcdffdf5d50928004ececf815a465e81"
   integrity sha512-B0ErZK/66mHtEsR1TkPEEkwdy+WDesimkM5gpZr5Dsg54BiTA5RXtYW5qTLIAcekaS9xfZrzBLF/OAkB3Qn1YQ==
   dependencies:
     internmap "^1.0.0"
 
-"d3-array@2 - 3", "d3-array@2.10.0 - 3", "d3-array@2.5.0 - 3", d3-array@^3.2.0:
+"d3-array@2 - 3", "d3-array@2.10.0 - 3", "d3-array@2.5.0 - 3", d3-array@^3.2.0, d3-array@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.2.4.tgz#15fec33b237f97ac5d7c986dc77da273a8ed0bb5"
   integrity sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==
