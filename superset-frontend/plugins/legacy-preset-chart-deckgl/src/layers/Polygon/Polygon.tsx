@@ -30,7 +30,7 @@ import {
   t,
 } from '@superset-ui/core';
 
-import { PolygonLayer } from 'deck.gl/typed';
+import { PolygonLayer } from 'deck.gl';
 
 import Legend from '../../components/Legend';
 import TooltipRow from '../../TooltipRow';

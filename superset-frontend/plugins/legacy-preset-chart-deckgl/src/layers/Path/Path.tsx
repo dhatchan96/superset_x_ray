@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { PathLayer } from 'deck.gl/typed';
+import { PathLayer } from 'deck.gl';
 import { JsonObject, QueryFormData } from '@superset-ui/core';
 import { commonLayerProps } from '../common';
 import sandboxedEval from '../../utils/sandbox';

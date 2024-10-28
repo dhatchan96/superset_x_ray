@@ -17,7 +17,7 @@
  * under the License.
  */
 import { memo, useCallback, useMemo, useRef } from 'react';
-import { GeoJsonLayer } from 'deck.gl/typed';
+import { GeoJsonLayer } from 'deck.gl';
 import geojsonExtent from '@mapbox/geojson-extent';
 import {
   HandlerFunction,

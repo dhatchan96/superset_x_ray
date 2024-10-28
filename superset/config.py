@@ -187,12 +187,14 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 # or use `SUPERSET_SECRET_KEY` environment variable.
 # Use a strong complex alphanumeric string and use a tool to help you generate
 # a sufficiently random sequence, ex: openssl rand -base64 42"
-SECRET_KEY = os.environ.get("SUPERSET_SECRET_KEY") or CHANGE_ME_SECRET_KEY
+# SECRET_KEY = os.environ.get("SUPERSET_SECRET_KEY") or CHANGE_ME_SECRET_KEY
+SECRET_KEY = 'W7Jw0YGcfzxNxcB20QVC6vmU9Jq9px39zEE5XG4Zc80'
 
 # The SQLAlchemy connection string.
-SQLALCHEMY_DATABASE_URI = (
-    f"""sqlite:///{os.path.join(DATA_DIR, "superset.db")}?check_same_thread=false"""
-)
+# SQLALCHEMY_DATABASE_URI = (
+#     f"""sqlite:///{os.path.join(DATA_DIR, "superset.db")}?check_same_thread=false"""
+# )
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://superset_user3:dhatchan@localhost/superset_dbb'
 
 # SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
@@ -258,7 +260,7 @@ SQLGLOT_DIALECTS_EXTENSIONS: dict[str, Dialects | type[Dialect]] = {}
 QUERY_SEARCH_LIMIT = 1000
 
 # Flask-WTF flag for CSRF
-WTF_CSRF_ENABLED = True
+WTF_CSRF_ENABLED = False
 
 # Add endpoints that need to be exempt from CSRF protection
 WTF_CSRF_EXEMPT_LIST = [
@@ -283,7 +285,7 @@ SHOW_STACKTRACE = False
 
 # Use all X-Forwarded headers when ENABLE_PROXY_FIX is True.
 # When proxying to a different port, set "x_port" to 0 to avoid downstream issues.
-ENABLE_PROXY_FIX = False
+ENABLE_PROXY_FIX = True
 PROXY_FIX_CONFIG = {"x_for": 1, "x_proto": 1, "x_host": 1, "x_port": 1, "x_prefix": 1}
 
 # Configuration for scheduling queries from SQL Lab.
@@ -487,7 +489,7 @@ DEFAULT_FEATURE_FLAGS: dict[str, bool] = {
     "DASHBOARD_CROSS_FILTERS": True,  # deprecated
     "DASHBOARD_VIRTUALIZATION": True,
     "GLOBAL_ASYNC_QUERIES": False,
-    "EMBEDDED_SUPERSET": False,
+    "EMBEDDED_SUPERSET": True,
     # Enables Alerts and reports new implementation
     "ALERT_REPORTS": False,
     "ALERT_REPORT_TABS": False,
@@ -795,8 +797,10 @@ EXPLORE_FORM_DATA_CACHE_CONFIG: CacheConfig = {
 STORE_CACHE_KEYS_IN_METADATA_DB = False
 
 # CORS Options
-ENABLE_CORS = False
-CORS_OPTIONS: dict[Any, Any] = {}
+ENABLE_CORS = True
+# CORS_OPTIONS: dict[Any, Any] = {}
+CORS_OPTIONS = { "allow_headers": ["*"], "origins": ["http://localhost:5055", "http://localhost:5000"], "supports_credentials": True, "resources": ["*"] }
+
 
 # Sanitizes the HTML content used in markdowns to allow its rendering in a safe manner.
 # Disabling this option is not recommended for security reasons. If you wish to allow
@@ -1036,7 +1040,7 @@ CELERY_CONFIG: type[CeleryConfig] = CeleryConfig
 # OVERRIDE_HTTP_HEADERS: sets override values for HTTP headers. These values will
 # override anything set within the app
 DEFAULT_HTTP_HEADERS: dict[str, Any] = {}
-OVERRIDE_HTTP_HEADERS: dict[str, Any] = {}
+OVERRIDE_HTTP_HEADERS = { "X-Frame-Options": "ALLOWALL" }
 HTTP_HEADERS: dict[str, Any] = {}
 
 # The db id here results in selecting this one as a default in SQL Lab
@@ -1918,3 +1922,16 @@ elif importlib.util.find_spec("superset_config") and not is_test():
     except Exception:
         logger.exception("Found but failed to import local superset_config")
         raise
+
+
+from superset.security import SupersetSecurityManager
+
+class CustomSecurityManager(SupersetSecurityManager):
+    def set_x_frame_options(self, response):
+        response.headers["X-Frame-Options"] = "ALLOWALL"  # Allow embedding from any origin
+        return response
+
+
+CUSTOM_SECURITY_MANAGER = CustomSecurityManager
+
+

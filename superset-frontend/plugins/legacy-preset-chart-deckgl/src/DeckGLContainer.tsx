@@ -31,7 +31,7 @@ import {
 } from 'react';
 import { isEqual } from 'lodash';
 import { StaticMap } from 'react-map-gl';
-import DeckGL, { Layer } from 'deck.gl/typed';
+import DeckGL, { Layer } from 'deck.gl';
 import { JsonObject, JsonValue, styled, usePrevious } from '@superset-ui/core';
 import Tooltip, { TooltipProps } from './components/Tooltip';
 import 'mapbox-gl/dist/mapbox-gl.css';

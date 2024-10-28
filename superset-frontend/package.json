@@ -31,6 +31,7 @@
     "doc": "docs",
     "test": "spec"
   },
+  "private": true,
   "workspaces": [
     "packages/*",
     "plugins/*",
@@ -233,6 +234,7 @@
     "@hot-loader/react-dom": "^16.14.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@mihkeleidast/storybook-addon-source": "^1.0.1",
+    "@react-spring/web": "^9.7.5",
     "@storybook/addon-actions": "8.1.11",
     "@storybook/addon-controls": "8.1.11",
     "@storybook/addon-essentials": "8.1.11",
@@ -288,6 +290,8 @@
     "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "currencyformatter.js": "^2.2.0",
+    "deck.gl": "8.5.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.7",
     "esbuild": "^0.20.0",
@@ -315,6 +319,7 @@
     "exports-loader": "^5.0.0",
     "fetch-mock": "^7.7.3",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "global-box": "^2.0.2",
     "history": "^5.3.0",
     "ignore-styles": "^5.0.1",
     "imports-loader": "^5.0.0",

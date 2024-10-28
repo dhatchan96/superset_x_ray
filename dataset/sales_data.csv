@@ -1,0 +1,10 @@
+Date,Product,Sales,Quantity,Region
+2024-10-01,Widget A,1500,10,North
+2024-10-02,Widget B,2500,15,South
+2024-10-03,Widget C,1800,12,East
+2024-10-04,Widget A,2100,14,West
+2024-10-05,Widget B,1700,11,North
+2024-10-06,Widget C,1900,13,South
+2024-10-07,Widget A,1600,11,East
+2024-10-08,Widget B,2600,16,West
+2024-10-09,Widget C,2200,14,North

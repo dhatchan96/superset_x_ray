@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { ScatterplotLayer } from 'deck.gl/typed';
+import { ScatterplotLayer } from 'deck.gl';
 import {
   Datasource,
   getMetricLabel,

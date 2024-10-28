@@ -21,7 +21,7 @@
 /* eslint no-underscore-dangle: ["error", { "allow": ["", "__timestamp"] }] */
 
 import { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { ScreenGridLayer } from 'deck.gl/typed';
+import { ScreenGridLayer } from 'deck.gl';
 import { JsonObject, JsonValue, QueryFormData, t } from '@superset-ui/core';
 import { noop } from 'lodash';
 import sandboxedEval from '../../utils/sandbox';

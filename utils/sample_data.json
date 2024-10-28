@@ -1,0 +1,83 @@
+[
+    {
+      "order_id": 1,
+      "customer_name": "Alice",
+      "product": "Laptop",
+      "quantity": 2,
+      "price": 1200.50,
+      "order_date": "2023-10-01"
+    },
+    {
+      "order_id": 2,
+      "customer_name": "Bob",
+      "product": "Smartphone",
+      "quantity": 1,
+      "price": 800.00,
+      "order_date": "2023-10-02"
+    },
+    {
+      "order_id": 3,
+      "customer_name": "Charlie",
+      "product": "Tablet",
+      "quantity": 3,
+      "price": 300.00,
+      "order_date": "2023-10-03"
+    },
+    {
+      "order_id": 4,
+      "customer_name": "Alice",
+      "product": "Smartwatch",
+      "quantity": 1,
+      "price": 200.00,
+      "order_date": "2023-10-04"
+    },
+    {
+      "order_id": 5,
+      "customer_name": "Bob",
+      "product": "Laptop",
+      "quantity": 1,
+      "price": 1200.50,
+      "order_date": "2023-10-05"
+    },
+    {
+      "order_id": 6,
+      "customer_name": "Alice",
+      "product": "Smartphone",
+      "quantity": 2,
+      "price": 800.00,
+      "order_date": "2023-10-06"
+    },
+    {
+      "order_id": 7,
+      "customer_name": "Charlie",
+      "product": "Tablet",
+      "quantity": 1,
+      "price": 300.00,
+      "order_date": "2023-10-07"
+    },
+    {
+      "order_id": 8,
+      "customer_name": "David",
+      "product": "Laptop",
+      "quantity": 2,
+      "price": 1200.50,
+      "order_date": "2023-10-08"
+    },
+    {
+      "order_id": 9,
+      "customer_name": "Eve",
+      "product": "Smartwatch",
+      "quantity": 1,
+      "price": 200.00,
+      "order_date": "2023-10-09"
+    },
+    {
+      "order_id": 10,
+      "customer_name": "Bob",
+      "product": "Tablet",
+      "quantity": 2,
+      "price": 300.00,
+      "order_date": "2023-10-10"
+    }
+  ]
+  

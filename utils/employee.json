@@ -1,0 +1,93 @@
+[
+    {
+      "employee_id": 101,
+      "name": "John Doe",
+      "age": 29,
+      "department": "Engineering",
+      "salary": 75000,
+      "hire_date": "2022-03-15",
+      "is_manager": false
+    },
+    {
+      "employee_id": 102,
+      "name": "Jane Smith",
+      "age": 35,
+      "department": "Human Resources",
+      "salary": 60000,
+      "hire_date": "2019-08-01",
+      "is_manager": true
+    },
+    {
+      "employee_id": 103,
+      "name": "Emma Johnson",
+      "age": 28,
+      "department": "Marketing",
+      "salary": 68000,
+      "hire_date": "2021-06-12",
+      "is_manager": false
+    },
+    {
+      "employee_id": 104,
+      "name": "Michael Brown",
+      "age": 42,
+      "department": "Sales",
+      "salary": 82000,
+      "hire_date": "2018-02-20",
+      "is_manager": true
+    },
+    {
+      "employee_id": 105,
+      "name": "Sophia Wilson",
+      "age": 31,
+      "department": "Finance",
+      "salary": 92000,
+      "hire_date": "2020-09-30",
+      "is_manager": false
+    },
+    {
+      "employee_id": 106,
+      "name": "Daniel Lee",
+      "age": 26,
+      "department": "Engineering",
+      "salary": 70000,
+      "hire_date": "2023-01-05",
+      "is_manager": false
+    },
+    {
+      "employee_id": 107,
+      "name": "Olivia Martinez",
+      "age": 39,
+      "department": "Marketing",
+      "salary": 73000,
+      "hire_date": "2017-11-23",
+      "is_manager": true
+    },
+    {
+      "employee_id": 108,
+      "name": "James Garcia",
+      "age": 45,
+      "department": "Finance",
+      "salary": 98000,
+      "hire_date": "2015-04-14",
+      "is_manager": true
+    },
+    {
+      "employee_id": 109,
+      "name": "Mia Rodriguez",
+      "age": 27,
+      "department": "Engineering",
+      "salary": 68000,
+      "hire_date": "2021-12-10",
+      "is_manager": false
+    },
+    {
+      "employee_id": 110,
+      "name": "Lucas Walker",
+      "age": 33,
+      "department": "Sales",
+      "salary": 79000,
+      "hire_date": "2019-05-17",
+      "is_manager": false
+    }
+  ]
+  
