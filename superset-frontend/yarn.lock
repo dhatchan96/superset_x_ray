@@ -6845,7 +6845,7 @@
     "@types/scheduler" "^0.16"
     csstype "^3.0.2"
 
-"@types/redux-localstorage@^1.0.8":
+"@types/redux-localstorage@^1.0.12":
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/@types/redux-localstorage/-/redux-localstorage-1.0.12.tgz#25c28a7939ca516aa88f069ad2e023cc402cb26f"
   integrity sha512-+N1PsS/4o0KZM9UXPXiLgXRtO4WqasOSQxFyW6ahqzgzG6sy5i2zluwssT+gFnXm7DrTF6qqVvauDf0lWM468g==
