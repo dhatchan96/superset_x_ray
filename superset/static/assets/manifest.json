@@ -1,0 +1,49 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/preamble.f7352237.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/theme.c1229b51.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors-node_modules_ant-design_icons_es_components_Icon_js-node_modules_ant-design_icons_es_-324076.04dcf340.entry.js",
+        "/static/assets/node_modules_moment_locale_sync_recursive_b_B-packages_superset-ui-core_src_ui-overrides_Exte-2189b3.5f36d529.entry.js",
+        "/static/assets/menu.7e64e15c.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [],
+      "js": [
+        "/static/assets/thumbnail.a19b0ff2.entry.js",
+        "/static/assets/vendors-node_modules_react-ace_lib_index_js.cc70426d.entry.js",
+        "/static/assets/vendors-node_modules_ant-design_icons_es_components_Icon_js-node_modules_ant-design_icons_es_-324076.04dcf340.entry.js",
+        "/static/assets/vendors-node_modules_ace-builds_src-min-noconflict_mode-css_js-node_modules_ace-builds_src-mi-a52db7.5ca711a6.entry.js",
+        "/static/assets/node_modules_moment_locale_sync_recursive_b_B-packages_superset-ui-core_src_ui-overrides_Exte-2189b3.5f36d529.entry.js",
+        "/static/assets/src_components_ErrorBoundary_index_tsx-src_components_MessageToasts_ToastContainer_tsx-src_se-1ba254.d8a2c329.entry.js",
+        "/static/assets/spa.c1982177.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [],
+      "js": [
+        "/static/assets/thumbnail.a19b0ff2.entry.js",
+        "/static/assets/vendors-node_modules_react-ace_lib_index_js.cc70426d.entry.js",
+        "/static/assets/vendors-node_modules_ant-design_icons_es_components_Icon_js-node_modules_ant-design_icons_es_-324076.04dcf340.entry.js",
+        "/static/assets/vendors-node_modules_ace-builds_src-min-noconflict_mode-css_js-node_modules_ace-builds_src-mi-a52db7.5ca711a6.entry.js",
+        "/static/assets/node_modules_moment_locale_sync_recursive_b_B-packages_superset-ui-core_src_ui-overrides_Exte-2189b3.5f36d529.entry.js",
+        "/static/assets/src_components_ErrorBoundary_index_tsx-src_components_MessageToasts_ToastContainer_tsx-src_se-1ba254.d8a2c329.entry.js",
+        "/static/assets/embedded.2cd5e5b6.entry.js"
+      ]
+    }
+  }
+}
