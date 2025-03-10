@@ -41,7 +41,6 @@ source superset-env/bin/activate  # On Windows: .\superset-env\Scripts\activate
 Install Superset and its dependencies:
 ```bash
 pip install -e .
-pip install -r requirements/local.txt
 ```
 
 ### 4. Install Frontend Dependencies
